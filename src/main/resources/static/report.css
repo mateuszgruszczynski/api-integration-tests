@@ -1,0 +1,147 @@
+html, body {
+    background-color: #FBFBFB !important;
+    height: 100%;
+}
+
+.logo{
+    background-color: #2863EF !important;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.title{
+    background-color: #2863EF !important;
+    height: 80px;
+    text-align: center;
+    padding: 10px;
+    color: #fbfbfb;
+}
+
+.title h1{
+    padding: 10px;
+    font-size: 20pt;
+}
+
+img.logo{
+    width: 180px;
+    height: 50px;
+    margin: 10px;
+    margin-left: 40px;
+}
+
+.tree-list{
+    color: #fbfbfb;
+    overflow-y: scroll;
+    height: 100px;
+}
+
+.tree-list a{
+    text-decoration: none;
+}
+
+li ul li.SUCCESS{
+    background: url(pass.png);
+}
+
+li ul li.FAILURE{
+    background: url(failed.png);
+}
+
+li ul li.OTHER{
+    background: url(other.png);
+}
+
+.left-panel{
+    -ms-flex: 0 0 300px;
+    flex: 0 0 300px;
+}
+
+#test-log{
+    padding: 5px;
+    padding-right: 55px;
+}
+
+#test-tools{
+    width: 50px;
+    position: fixed;
+    right: 10px;
+    top: 20px;
+    z-index: 1000;
+}
+
+#status-toggle{
+    padding: 5px;
+    text-align: center;
+}
+
+.passed-toggle{
+    background-color: #3A8510 !important;
+    margin: 5px;
+    color: #FBFBFB !important;
+}
+
+.failed-toggle{
+    background-color: #AB0809 !important;
+    margin: 5px;
+    width: 50px;
+    color: #FBFBFB !important;
+}
+
+.ignored-toggle{
+    background-color: #D05B0A !important;
+    margin: 5px;
+    width: 50px;
+    color: #FBFBFB !important;
+}
+
+.tool-btn{
+    background-color: #f2f2f2 !important;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    color: #3e3e3e !important;
+}
+
+.tree-list h1{
+    color: #2863EF;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.tree-list ul li ul li{
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    height: 24px;
+    padding: 1px;
+    padding-left: 24px;
+    font-size: 10pt;
+}
+
+.tree-list ul {
+    padding-bottom: 15px;
+}
+
+.rest-request .card-header{
+    background-color: #d4ffbf;
+}
+
+.rest-request .list-group-item{
+    background-color: #eeffe6;
+}
+
+.rest-response .card-header{
+    background-color: #bfeaff;
+}
+
+.rest-response .list-group-item{
+    background-color: #e6f7ff;
+}
+
+.assertion-failure .card-header{
+    background-color: #FFBFBF;
+}
+
+.assertion-failure .list-group-item{
+    background-color: #FFE7E7;
+}
+
